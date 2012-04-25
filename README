@@ -9,7 +9,15 @@ WinManager
 ctags install
 
 
+Usage
+=============
+make ctag
+	to download and install ctags
+
+make install
+	to intasll all plugins and .vimrc to ~/ forlder
+
 Referance
-------------
+=========================
 http://blog.csdn.net/wooin/article/details/1858917
 
