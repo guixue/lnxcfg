@@ -1,0 +1,15 @@
+Introduce
+========================== 
+gxvimrc is my vim config and plugins
+
+inlcude:
+Taglist
+WinManager
+
+ctags install
+
+
+Referance
+------------
+http://blog.csdn.net/wooin/article/details/1858917
+
