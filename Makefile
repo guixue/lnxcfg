@@ -1,7 +1,7 @@
 
 install:
 	cp .vimrc ~/.vimrc
-	cp .vim ~/.vim -rf
+	cp .vim ~/ -rf
 
 ctag:
 	wget http://prdownloads.sourceforge.net/ctags/ctags-5.8.tar.gz

@@ -2,11 +2,15 @@ Introduce
 ========================== 
 gxvimrc is my vim config and plugins
 
-inlcude:
-Taglist
-WinManager
+ Plugins:
+------------
+ * Taglist
+ * WinManager
+ * MiniBufExplorer
 
-ctags install
+ Tools
+------------
+ * ctags  auto install by 'make ctag'
 
 
 Usage
