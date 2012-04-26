@@ -16,6 +16,10 @@ nmap wm :WMToggle<cr>
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 let Tlist_Show_One_File = 1
 set tags=./tags;../tags;../../tags;../../../tags;../../../../tags;
+
 "MiniBufExplorer
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
+
+"SuperTab
+let g:SuperTabDefaultCompletionType="<C-X><C-O>"
