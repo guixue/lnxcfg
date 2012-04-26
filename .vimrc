@@ -3,6 +3,7 @@ syntax on
 set number
 set autoindent      " new line indent same this line.
 set smartindent
+set mouse=a
 
 "for  winmanager
 map <c-w><c-f> :FirstExplorerWindow<cr>
@@ -15,4 +16,6 @@ nmap wm :WMToggle<cr>
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 let Tlist_Show_One_File = 1
 set tags=./tags;../tags;../../tags;../../../tags;../../../../tags;
-
+"MiniBufExplorer
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
