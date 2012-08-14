@@ -23,3 +23,11 @@ let g:miniBufExplMapWindowNavArrows = 1
 
 "SuperTab
 let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+
+
+"C.vim
+
+filetype plugin on
+
+
+

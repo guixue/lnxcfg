@@ -8,6 +8,9 @@ gxvimrc is my vim config and plugins
  * WinManager
  * MiniBufExplorer
  * SuperTab
+ * C.vim
+ * lua.vim
+
 
  Tools
 ------------
