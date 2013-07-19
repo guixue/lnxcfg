@@ -33,43 +33,32 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  */
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description == start ==
-/*
- * =====================================================================================
+/* *
+ * Filename:  |FILENAME|
  *
- *       Filename:  |FILENAME|
- *
- *    Description:  <CURSOR>
- *
- *        Version:  1.0
- *        Created:  |DATE| |TIME|
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
- *   Organization:  |ORGANIZATION|
- *
- * =====================================================================================
+ * Description:  <CURSOR>
+
+ * Date:  |DATE| |TIME|
+ * Author:  |AUTHOR|
  */
-#include <stdlib.h>
+
+
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description-header == start ==
-/*
- * =====================================================================================
+/* *
+ * Filename:  |FILENAME|
  *
- *       Filename:  |FILENAME|
- *
- *    Description:  <CURSOR>
- *
- *        Version:  1.0
- *        Created:  |DATE| |TIME|
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
- *   Organization:  |ORGANIZATION|
- *
- * =====================================================================================
+ * Description:  <CURSOR>
+
+ * Date:  |DATE| |TIME|
+ * Author:  |AUTHOR|
  */
+#ifndef _|BASENAME|_H_
+#define _|BASENAME|_H_
+
+
+#endif  /*_|BASENAME|_H_*/
+
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-section-cpp-header-includes  == 
 /* #####   HEADER FILE INCLUDES   ################################################### */
