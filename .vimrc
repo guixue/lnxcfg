@@ -5,6 +5,11 @@ set autoindent      " new line indent same this line.
 set smartindent
 set mouse=a
 
+" tab width
+set ts=4
+set sw=4
+
+
 "for  winmanager
 map <c-w><c-f> :FirstExplorerWindow<cr>
 map <c-w><c-b> :BottomExplorerWindow<cr>

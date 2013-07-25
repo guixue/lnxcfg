@@ -10,4 +10,6 @@ ctag:
 	rm ctags-5.8 -rf
 	rm ctags-5.8.tar.gz
 
+cs:
+	sudo apt-get install cscope
 
