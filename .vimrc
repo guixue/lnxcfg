@@ -34,3 +34,6 @@ let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 
 filetype plugin on
 
+"xptemplate
+let g:xptemplate_vars = "BRloop=\n"
+
