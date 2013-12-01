@@ -15,10 +15,11 @@ VIM  Plugins:
  * mru(https://raw.github.com/yegappan/mru/master/plugin/mru.vim)
 
 
- Tools
+VIM Tools
 ------------
- * ctags  auto install by 'make ctag'
-
+ * vim
+ * ctags 
+ * cscope 
 
 Usage
 =============

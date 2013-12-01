@@ -1,7 +1,13 @@
 
-make:
-	to install ctags and cscope.
+make vim:
+	install vim and related plugins
 	to intasll all plugins
 	link soft to  ~/.vimrc to ~/vim forlder
+
+make tools:
+	intall linux tools
+	vim, ctags, cscope
+
+
 
 
