@@ -1,15 +1,15 @@
+CUR_DIR= $(abspath ./)
 
-install:
-	cp .vimrc ~/.vimrc
-	cp .vim ~/ -rf
 
-ctag:
-	wget http://prdownloads.sourceforge.net/ctags/ctags-5.8.tar.gz
-	tar -zxvf ./ctags-5.8.tar.gz
-	cd ctags-5.8/;./configure; make; sudo make install
-	rm ctags-5.8 -rf
-	rm ctags-5.8.tar.gz
+vim: tools
+	ln -s $(CUR_DIR)/vim ~/.vim -f
+	ln -s $(CUR_DIR)/vimrc ~/.vimrc -f
 
-cs:
-	sudo apt-get install cscope
+tools:
+	# install vim and related tools
+	sudo apt-get install vim
+	sudo apt-get install ctags cscope
 
+
+help:
+	@cat Usage.txt

@@ -1,8 +1,9 @@
 Introduce
 ========================== 
-gxvimrc is my vim config and plugins
+lnxcfg is my linux config and tools install auto 
 
- Plugins:
+
+VIM  Plugins:
 ------------
  * Taglist
  * WinManager
@@ -11,6 +12,7 @@ gxvimrc is my vim config and plugins
  * C.vim
  * lua.vim
  * xptemplate(https://github.com/drmingdrmer/xptemplate)
+ * mru(https://raw.github.com/yegappan/mru/master/plugin/mru.vim)
 
 
  Tools
@@ -20,11 +22,7 @@ gxvimrc is my vim config and plugins
 
 Usage
 =============
-make ctag
-	to download and install ctags
-
-make install
-	to intasll all plugins and .vimrc to ~/ forlder
+Refert to Usage.txt
 
 Referance
 =========================

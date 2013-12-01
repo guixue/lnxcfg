@@ -1,0 +1,7 @@
+
+make:
+	to install ctags and cscope.
+	to intasll all plugins
+	link soft to  ~/.vimrc to ~/vim forlder
+
+
