@@ -1,7 +1,7 @@
 CUR_DIR= $(abspath ./)
 
 
-all: vim
+all: vim sh
 
 vim: vim-tools
 	ln -s $(CUR_DIR)/vim ~/.vim -f
@@ -11,6 +11,10 @@ vim-tools:
 	# install vim and related tools
 	sudo apt-get install vim
 	sudo apt-get install ctags cscope
+
+sh:
+	ln -s $(CUR_DIR)/mybashrc ~/.mybashrc -f
+	ln -s $(CUR_DIR)/git-completion.bash ~/.git-completion.bash -f
 
 
 help:

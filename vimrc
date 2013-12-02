@@ -1,3 +1,8 @@
+" C=ctrl
+" A=Alt
+" S=Shift
+" <CR>=Enter
+
 syntax enable
 syntax on
 set number
@@ -16,6 +21,9 @@ map <c-w><c-b> :BottomExplorerWindow<cr>
 map <c-w><c-t> :WMToggle<cr>
 let g:winManagerWindowLayout='FileExplorer|TagList'
 nmap wm :WMToggle<cr>
+
+" for MRU 
+nmap mr :MRU<cr>
 
 "ctag
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
