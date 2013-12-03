@@ -45,3 +45,10 @@ filetype plugin on
 "xptemplate
 let g:xptemplate_vars = "BRloop=\n"
 
+
+"cscope
+"----------------------
+if filereadable("cscope.out")
+	cs add cscope.out
+endif
+

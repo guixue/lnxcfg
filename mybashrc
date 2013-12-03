@@ -7,6 +7,7 @@ alias armdump='/opt/toolchain/Marvell/arm-mv5sft-linux-gnueabi_SW3.2/bin/arm-mv5
 alias mkall='make core && make sdk && make fw.all'
 alias virb='vi ~/.reviewboardrc'
 alias rebase='git rebase origin/dev_bellwether'
+alias cs='cscope -Rbq'
 
 ###################################################
 ####  bash mark
