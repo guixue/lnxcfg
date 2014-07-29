@@ -8,6 +8,8 @@ alias mkall='make core && make sdk && make fw.all'
 alias virb='vi ~/.reviewboardrc'
 alias rebase='git rebase origin/dev_bellwether'
 alias cs='cscope -Rbq'
+alias st='subl'
+alias ssh8='ssh guixue@172.22.102.8'
 
 ###################################################
 ####  bash mark
