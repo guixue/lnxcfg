@@ -10,6 +10,8 @@ alias rebase='git rebase origin/dev_bellwether'
 alias cs='cscope -Rbq'
 alias st='subl'
 alias ssh8='ssh guixue@172.22.102.8'
+alias nt='nautilus'
+alias nthere='nautilus ./'
 
 ###################################################
 ####  bash mark
@@ -161,3 +163,5 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+
+JAVA_HOME="/usr/lib/jvm/java-7-openjdk-i386/jre"
