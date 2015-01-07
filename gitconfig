@@ -3,7 +3,7 @@
 	br = branch
 	ci = commit
 	st = status
-	meld = ~/.git-meld.sh
+	di = difftool -t meld -y
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [user]
 	name = guixue
@@ -12,5 +12,5 @@
 [merge]
 	tool = meld
 	
-[diff]
-	external = ~/.git-meld.sh
+[core]
+	excludesfile = /home/guixue/.gitignore

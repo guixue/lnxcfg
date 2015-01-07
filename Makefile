@@ -19,6 +19,7 @@ sh:
 	ln -s $(CUR_DIR)/git-completion.bash ~/.git-completion.bash -f
 	ln -s $(CUR_DIR)/git-meld.sh ~/.git-meld.sh -f
 	ln -s $(CUR_DIR)/gitconfig ~/.gitconfig -f
+	ln -s $(CUR_DIR)/gitignore ~/.gitignore -f
 
 help:
 	@cat Usage.txt

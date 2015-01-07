@@ -1,0 +1,9 @@
+#ignore obj and lib file 
+*.
+*.[oa]
+*.dep
+.gitignore
+.gitignore~
+*.x86
+*.tgt
+*.DS_Store
